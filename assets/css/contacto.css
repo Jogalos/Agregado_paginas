@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Square+Peg&family=Tapestry&display=swap');
+.contenedor2{
+ 
+        display: grid;
+        background-color:rgb(19, 17, 17);
+        
+       
+        grid-template-columns: 100px auto 100px;
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "footer footer footer";
+                             
+                             
+}
+
+.navegador{
+    grid-area: nav;
+    background-color:rgba(182, 174, 174, 0.9);
+}
+.contact{
+    grid-area: main;
+   width: 38%;
+   margin: 80px;
+   text-align: center;
+    
+   background-color:rgba(255, 251, 251, 0.9);
+   display: inline-block;
+   flex-wrap: wrap;
+   
+     
+}
+
+
+.ubicacion{
+    
+    margin: 50px;
+    
+    text-align: center;
+    font-size: 30px;
+   font-family: 'Tapestry', cursive;
+}
+.social{
+    grid-area: footer;
+    background-color: rgba(182, 174, 174, 0.9);
+}
+
+
+   
+  
+
+
+

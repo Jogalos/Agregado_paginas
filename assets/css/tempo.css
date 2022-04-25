@@ -1,0 +1,22 @@
+#info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.temporada{
+    margin: 20px;
+
+}
+.temporada img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    
+}
+#info .contenedor{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+}

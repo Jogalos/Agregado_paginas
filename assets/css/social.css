@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .social  {
+     margin: 0;
+     padding: 0;
+    background-color: rgb(249, 253, 253);
+}
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    flex-wrap: wrap;
+
+       
+}
+.contenedor1 h2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+

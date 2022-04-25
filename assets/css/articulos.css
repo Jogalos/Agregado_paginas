@@ -1,0 +1,24 @@
+
+#tarjeta .contenedor h3 {  
+    text-align: center;
+    
+    
+}
+#tarjeta .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ 
+ 
+}
+#tarjeta article{
+    margin: 10px;
+}
+#tarjeta img{
+   
+box-shadow: -1px 8px 11px 2px rgba(0,0,0,0.63);
+    width: 100%;
+   height: 300px;
+
+}
