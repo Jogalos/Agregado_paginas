@@ -4,7 +4,9 @@
 @import url(articulos.css);
 @import url(tempo.css);
 @import url(social.css);
+@import url(tarjeta_quienes.css);
 @import url(contacto.css);
+
 h3{
     text-align: center;   
 }
